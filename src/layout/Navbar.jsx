@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Head from 'next/head';
 import { useSelector, useDispatch } from 'react-redux';
 import Link from 'next/link';
@@ -115,8 +115,8 @@ const Navbar = ({
 }) => {
   const classes = useStyles();
   const dispatch = useDispatch();
-  const { sideBarIsOpen } = useSelector((state) => state.layout);
   const [anchorEl, setAnchorEl] = React.useState(null);
+  const { sideBarIsOpen } = useSelector((state) => state.layout);
 
   const handleClick = (event) => {
     setAnchorEl(event.currentTarget);

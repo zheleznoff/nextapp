@@ -23,7 +23,7 @@ const MainContent = () => {
             >
                 <Grid
                     item
-                    xs={12} md={6} lg={6}
+                    xs={10} md={6} lg={6}
                     style={{
                         height:'50vh'
                     }}
@@ -31,8 +31,16 @@ const MainContent = () => {
                     <Grid
                         className={classes.titles}
                         style={{
-                            marginTop: '25%',
-                            marginLeft: '10%'
+                            // marginTop: '25%',
+                            // marginLeft: '10%',
+                            width: '100%',
+                            height: '100%',
+                            display: 'flex',
+                            flexDirection: 'column',
+                            alignItems: 'flex-start',
+                            justifyContent: 'center',
+                            paddingLeft: '14px'
+
                         }}
                     >
                         <Typography variant="h4">
@@ -56,12 +64,12 @@ const MainContent = () => {
                 </Grid>
                 <Grid
                     item
-                    xs={12} md={6} lg={6}
-                    direction={'row'}
-                    alignItems={'center'}
+                    xs={10} md={6} lg={6}
                     style={{
                         height:'370px',
-                        paddingLeft: '5%'
+                        display: 'flex',
+                        alignItems: 'center',
+                        justifyContent: 'center'
                     }}
                 >
                     <img
