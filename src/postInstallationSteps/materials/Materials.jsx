@@ -4,6 +4,7 @@ import { makeStyles } from "@material-ui/core/styles";
 import Container from "@material-ui/core/Container";
 import Checkbox from '@material-ui/core/Checkbox';
 import FormControlLabel from '@material-ui/core/FormControlLabel';
+import FormHelperText from '@material-ui/core/FormHelperText';
 import FormControl from "@material-ui/core/FormControl";
 import Button from "@material-ui/core/Button";
 import { Snack } from '../../layout/Snack';
@@ -25,6 +26,10 @@ const useStyles = makeStyles((theme) => ({
       "& > *": {
         margin: theme.spacing(2)
       }
+    },
+    hint: {
+        margin: 0,
+        paddingLeft: '50px'
     },
     submitBtn: {
       marginTop: theme.spacing(3)
@@ -79,6 +84,7 @@ const Materials = () => {
                         }
                         label="Видео"
                     />
+                    <FormHelperText className={classes.hint}>Исходники с камер</FormHelperText>
                 </FormControl>
                 <FormControl>
                     <FormControlLabel
@@ -92,6 +98,7 @@ const Materials = () => {
                         }
                         label="Аудио"
                     />
+                    <FormHelperText className={classes.hint}>Музыка<br/>Запись диктора</FormHelperText>
                 </FormControl>
                 <FormControl>
                     <FormControlLabel
@@ -105,6 +112,7 @@ const Materials = () => {
                         }
                         label="Текст"
                     />
+                    <FormHelperText className={classes.hint}>Комментарии<br/>Плашки</FormHelperText>
                 </FormControl>
                 <FormControl>
                     <Button

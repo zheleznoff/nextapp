@@ -4,6 +4,7 @@ import { makeStyles } from "@material-ui/core/styles";
 import Container from "@material-ui/core/Container";
 import Checkbox from '@material-ui/core/Checkbox';
 import FormControlLabel from '@material-ui/core/FormControlLabel';
+import FormHelperText from '@material-ui/core/FormHelperText';
 import FormControl from "@material-ui/core/FormControl";
 import Button from "@material-ui/core/Button";
 import { Snack } from '../../layout/Snack';
@@ -25,6 +26,10 @@ const useStyles = makeStyles((theme) => ({
       "& > *": {
         margin: theme.spacing(2)
       }
+    },
+    hint: {
+        margin: 0,
+        paddingLeft: '50px'
     },
     submitBtn: {
       marginTop: theme.spacing(3)
@@ -79,6 +84,7 @@ const ThreeDWork = () => {
                         }
                         label="Создание"
                     />
+                    <FormHelperText className={classes.hint}>Моделирование объектов</FormHelperText>
                 </FormControl>
                 <FormControl>
                     <FormControlLabel
@@ -92,8 +98,9 @@ const ThreeDWork = () => {
                         }
                         label="Доработка"
                     />
+                    <FormHelperText className={classes.hint}>Добавление объектов в продукт</FormHelperText>
                 </FormControl>
-                <FormControl>
+                {/* <FormControl>
                     <FormControlLabel
                         control={
                         <Checkbox
@@ -105,7 +112,7 @@ const ThreeDWork = () => {
                         }
                         label="Готово"
                     />
-                </FormControl>
+                </FormControl> */}
                 <FormControl>
                     <Button
                         className={classes.submitBtn}

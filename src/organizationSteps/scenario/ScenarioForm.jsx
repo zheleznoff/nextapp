@@ -4,6 +4,7 @@ import { makeStyles } from "@material-ui/core/styles";
 import Container from "@material-ui/core/Container";
 import Checkbox from '@material-ui/core/Checkbox';
 import FormControlLabel from '@material-ui/core/FormControlLabel';
+import FormHelperText from '@material-ui/core/FormHelperText';
 import FormControl from "@material-ui/core/FormControl";
 import Button from "@material-ui/core/Button";
 import { setScenarioPoints } from '../../../store/slices/scenario/scenarioSlice';
@@ -25,8 +26,12 @@ const useStyles = makeStyles((theme) => ({
         margin: theme.spacing(2)
       }
     },
+    hint: {
+        margin: 0,
+        paddingLeft: '50px'
+    },
     submitBtn: {
-      marginTop: theme.spacing(3)
+      marginTop: theme.spacing(1)
     }
   }));
 
@@ -70,6 +75,7 @@ const ScenarioForm = () => {
                         control={
                         <Checkbox
                             checked={scenarioState.writing}
+                            className={classes.firstCheckBox}
                             onChange={handleChange}
                             name="writing"
                             color="primary"
@@ -77,6 +83,7 @@ const ScenarioForm = () => {
                         }
                         label="Написание сценария"
                     />
+                    <FormHelperText className={classes.hint}>-Эпизод 1<br/>-Эпизод 2<br/>...</FormHelperText>
                 </FormControl>
                 <FormControl>
                     <FormControlLabel
@@ -90,6 +97,9 @@ const ScenarioForm = () => {
                         }
                         label="Субтитры"
                     />
+                    <FormHelperText className={classes.hint}>Русский,Английский по ситуации</FormHelperText>
+                </FormControl>
+                <FormControl>
                 <Button
                     className={classes.submitBtn}
                     variant="contained"

@@ -4,6 +4,7 @@ import { makeStyles } from "@material-ui/core/styles";
 import Container from "@material-ui/core/Container";
 import Checkbox from '@material-ui/core/Checkbox';
 import FormControlLabel from '@material-ui/core/FormControlLabel';
+import FormHelperText from '@material-ui/core/FormHelperText';
 import FormControl from "@material-ui/core/FormControl";
 import Button from "@material-ui/core/Button";
 import { Snack } from '../../layout/Snack';
@@ -79,6 +80,7 @@ const ScenarioWork = () => {
                         }
                         label="Склейка"
                     />
+                    <FormHelperText className={classes.hint}>Склейка исходников видео исходя из сценария</FormHelperText>
                 </FormControl>
                 <FormControl>
                     <FormControlLabel
@@ -92,6 +94,7 @@ const ScenarioWork = () => {
                         }
                         label="Аудио"
                     />
+                    <FormHelperText className={classes.hint}>Склейка исходников аудио исходя из сценария</FormHelperText>
                 </FormControl>
                 <FormControl>
                     <FormControlLabel
@@ -105,6 +108,7 @@ const ScenarioWork = () => {
                         }
                         label="Текст"
                     />
+                    <FormHelperText className={classes.hint}>Наложение текста по хронометражу</FormHelperText>
                 </FormControl>
                 <FormControl>
                     <Button

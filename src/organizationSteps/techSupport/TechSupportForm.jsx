@@ -4,6 +4,7 @@ import { makeStyles } from "@material-ui/core/styles";
 import Container from "@material-ui/core/Container";
 import Checkbox from '@material-ui/core/Checkbox';
 import FormControlLabel from '@material-ui/core/FormControlLabel';
+import FormHelperText from '@material-ui/core/FormHelperText';
 import FormControl from "@material-ui/core/FormControl";
 import Button from "@material-ui/core/Button";
 import { Snack } from '../../layout/Snack';
@@ -25,6 +26,10 @@ const useStyles = makeStyles((theme) => ({
       "& > *": {
         margin: theme.spacing(2)
       }
+    },
+    hint: {
+        margin: 0,
+        paddingLeft: '50px'
     },
     submitBtn: {
       marginTop: theme.spacing(3)
@@ -78,6 +83,7 @@ const TechSupportForm = () => {
                         }
                         label="Камера"
                     />
+                    <FormHelperText className={classes.hint}>Камера 360 с разрешением съемки Full HD</FormHelperText>
                 </FormControl>
                 <FormControl>
                     <FormControlLabel
@@ -91,22 +97,25 @@ const TechSupportForm = () => {
                         }
                         label="Персональный компьютер"
                     />
-                <Button
-                    className={classes.submitBtn}
-                    variant="contained"
-                    color="primary"
-                    type="submit"
-                >
-                    Сохранить
-                </Button>
-                <Button
-                    className={classes.submitBtn}
-                    onClick={() => router.back()}
-                    variant="contained"
-                    type="button"
-                >
-                    Назад
-                </Button>
+                    <FormHelperText className={classes.hint}>Компьютер, пригодный для монтажа</FormHelperText>
+                </FormControl>
+                <FormControl>
+                    <Button
+                        className={classes.submitBtn}
+                        variant="contained"
+                        color="primary"
+                        type="submit"
+                    >
+                        Сохранить
+                    </Button>
+                    <Button
+                        className={classes.submitBtn}
+                        onClick={() => router.back()}
+                        variant="contained"
+                        type="button"
+                    >
+                        Назад
+                    </Button>
                 </FormControl>
             </Container>
             <Snack
