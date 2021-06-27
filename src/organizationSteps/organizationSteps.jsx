@@ -31,17 +31,6 @@ const OrganizationSteps = () => {
         >
             <Paper className={fixedHeightPaper}>
                 <List component="nav" aria-label="main mailbox folders">
-                    <Link
-                        href={'/organization/scenario'}
-                        passHref
-                    >
-                        <ListItem
-                            button
-                            className={classes.listText}
-                        >
-                            <ListItemText primary="Организация сценария" />
-                        </ListItem>
-                    </Link>
                     <Link href={'/organization/tech-support'}>
                         <ListItem
                             button
@@ -50,12 +39,14 @@ const OrganizationSteps = () => {
                             <ListItemText primary="Техническое обеспечение" />
                         </ListItem>
                     </Link>
-                    <ListItem
-                        button
-                        className={classes.listText} 
-                    >
-                        <ListItemText primary="Организация выполнения" />
-                    </ListItem>
+                    <Link href={'/organization/workspace'}>
+                        <ListItem
+                            button
+                            className={classes.listText}
+                        >
+                            <ListItemText primary="Программное обеспечние" />
+                        </ListItem>
+                    </Link>
                 </List>
             </Paper>
         </Grid>

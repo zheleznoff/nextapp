@@ -63,6 +63,7 @@ const TotalWork = () => {
                 onSubmit={(e) => {
                     e.preventDefault();
                     dispatch(setTotalWork(totalWorkState));
+                    router.push('/product')
                     handleClick()
                 }}
                 className={classes.root}
@@ -103,7 +104,7 @@ const TotalWork = () => {
                             color="primary"
                         />
                         }
-                        label="Рендеринг"
+                        label="Экспорт материала (рендеринг)"
                     />
                 </FormControl>
                 <FormControl>

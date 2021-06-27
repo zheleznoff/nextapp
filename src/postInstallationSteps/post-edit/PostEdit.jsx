@@ -68,6 +68,7 @@ const PostEdit = () => {
                 onSubmit={(e) => {
                     e.preventDefault();
                     dispatch(setPostEdit(postEditState));
+                    router.push('/editing/scenario-work')
                     handleClick()
                 }}
                 className={classes.root}

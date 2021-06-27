@@ -64,6 +64,7 @@ const ScenarioWork = () => {
                 onSubmit={(e) => {
                     e.preventDefault();
                     dispatch(setScenarioWork(scenarioWorkState));
+                    router.push('/editing/3d-work')
                     handleClick()
                 }}
                 className={classes.root}

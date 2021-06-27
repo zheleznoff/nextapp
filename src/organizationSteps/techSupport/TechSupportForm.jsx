@@ -67,6 +67,7 @@ const TechSupportForm = () => {
                 onSubmit={(e) => {
                     e.preventDefault();
                     dispatch(setTechSupport(techSupportState));
+                    router.push('/organization/workspace')
                     handleClick()
                 }}
                 className={classes.root}

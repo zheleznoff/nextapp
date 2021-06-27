@@ -68,6 +68,7 @@ const Materials = () => {
                 onSubmit={(e) => {
                     e.preventDefault();
                     dispatch(setMaterials(materialsState));
+                    router.push('/post-installation/post-edit')
                     handleClick()
                 }}
                 className={classes.root}

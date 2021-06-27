@@ -62,6 +62,7 @@ const Workspace = () => {
                 onSubmit={(e) => {
                     e.preventDefault();
                     dispatch(setWorkspace(workspaceState));
+                    router.push('/post-installation/materials')
                     handleClick()
                 }}
                 className={classes.root}

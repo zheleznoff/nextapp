@@ -68,6 +68,7 @@ const ThreeDWork = () => {
                 onSubmit={(e) => {
                     e.preventDefault();
                     dispatch(setThreeDWork(threeDWorkState));
+                    router.push('/editing/total-work')
                     handleClick()
                 }}
                 className={classes.root}

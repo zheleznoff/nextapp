@@ -24,17 +24,6 @@ const PostInstallationSteps = () => {
         >
             <Paper className={classes.paper}>
                 <List component="nav" aria-label="main mailbox folders">
-                    <Link
-                        href={'/post-installation/workspace'}
-                        passHref
-                    >
-                        <ListItem
-                            button
-                            className={classes.listText}
-                        >
-                            <ListItemText primary="Рабочая среда" />
-                        </ListItem>
-                    </Link>
                     <Link href={'/post-installation/materials'} passHref>
                         <ListItem
                             button
