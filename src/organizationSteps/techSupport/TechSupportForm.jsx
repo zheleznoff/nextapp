@@ -82,9 +82,9 @@ const TechSupportForm = () => {
                             color="primary"
                         />
                         }
-                        label="Камера"
+                        label="Camera"
                     />
-                    <FormHelperText className={classes.hint}>Камера 360 с разрешением съемки Full HD</FormHelperText>
+                    <FormHelperText className={classes.hint}>Full HD camera with 360 recording support</FormHelperText>
                 </FormControl>
                 <FormControl>
                     <FormControlLabel
@@ -96,9 +96,9 @@ const TechSupportForm = () => {
                             color="primary"
                         />
                         }
-                        label="Персональный компьютер"
+                        label="PC"
                     />
-                    <FormHelperText className={classes.hint}>Компьютер, пригодный для монтажа</FormHelperText>
+                    <FormHelperText className={classes.hint}>Computer suitable for mounting</FormHelperText>
                 </FormControl>
                 <FormControl>
                     <Button
@@ -107,7 +107,7 @@ const TechSupportForm = () => {
                         color="primary"
                         type="submit"
                     >
-                        Сохранить
+                        Save
                     </Button>
                     <Button
                         className={classes.submitBtn}
@@ -115,7 +115,7 @@ const TechSupportForm = () => {
                         variant="contained"
                         type="button"
                     >
-                        Назад
+                        Back
                     </Button>
                 </FormControl>
             </Container>

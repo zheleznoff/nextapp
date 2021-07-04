@@ -83,9 +83,9 @@ const PostEdit = () => {
                             color="primary"
                         />
                         }
-                        label="Склейка материала"
+                        label="Bonding material"
                     />
-                    <FormHelperText className={classes.hint}>Выгрузка исходников в рабочую среду</FormHelperText>
+                    <FormHelperText className={classes.hint}>Uploading sources to the production environment</FormHelperText>
                 </FormControl>
                 <FormControl>
                     <FormControlLabel
@@ -97,9 +97,9 @@ const PostEdit = () => {
                             color="primary"
                         />
                         }
-                        label="Сведение звука"
+                        label="Sound mixing"
                     />
-                    <FormHelperText className={classes.hint}>Подбор аудио<br/>Синхронизация с видео</FormHelperText>
+                    <FormHelperText className={classes.hint}>Audio selection<br/>Synchronization with the view</FormHelperText>
                 </FormControl>
                 <FormControl>
                     <FormControlLabel
@@ -111,9 +111,9 @@ const PostEdit = () => {
                             color="primary"
                         />
                         }
-                        label="Синхронизация субтитров"
+                        label="Sync subtitles"
                     />
-                    <FormHelperText className={classes.hint}>Синхронизация субтитров с аудио и видео</FormHelperText>
+                    <FormHelperText className={classes.hint}>Synchronization of subtitles with audio and video</FormHelperText>
 
                 </FormControl>
                 <FormControl>
@@ -123,7 +123,7 @@ const PostEdit = () => {
                     color="primary"
                     type="submit"
                 >
-                    Сохранить
+                    Save
                 </Button>
                 <Button
                     className={classes.submitBtn}
@@ -131,7 +131,7 @@ const PostEdit = () => {
                     variant="contained"
                     type="button"
                 >
-                    Назад
+                    Back
                 </Button>
                 </FormControl>
             </Container>

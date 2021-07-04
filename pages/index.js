@@ -5,7 +5,7 @@ import { MainContent } from '../src/main/MainContent'
 export default function Index() {
   return (
     <Navbar
-      title={'Главная'}
+      title={'Main'}
     >
       <MainContent/>
     </Navbar>

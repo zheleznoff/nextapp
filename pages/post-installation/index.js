@@ -4,7 +4,7 @@ import { PostInstallationSteps } from '../../src/postInstallationSteps/PostInsta
 
 const Index = () => {
     return (
-        <Navbar title="Пост-монтаж">
+        <Navbar title="Post-installation">
             <PostInstallationSteps/>
         </Navbar>
     )

@@ -6,8 +6,8 @@ import { OrganizationSteps } from '../../src/organizationSteps/organizationSteps
 const Organization = () => {
     return (
         <Navbar
-            title='Обеспечение проекта'
-            hint={['Данные шаги являются основными этапами организационного процесса съемки.']}
+            title='Project support'
+            hint={['These steps are the main steps in the organizational survey process.']}
         >
             <Grid
                 item

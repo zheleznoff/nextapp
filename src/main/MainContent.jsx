@@ -44,10 +44,10 @@ const MainContent = () => {
                         }}
                     >
                         <Typography variant="h4">
-                            Мастер класс по виртуальной и дополненой реальности
+                            Master class on virtual and augmented reality
                         </Typography>
                         <Typography variant="h6">
-                            Создание виртуалього тура
+                            Creation of a virtual tour
                         </Typography>
                         <Link href={'/organization'}>
                             <Button
@@ -57,7 +57,7 @@ const MainContent = () => {
                                     marginTop: '20px'
                                 }}
                             >
-                                Начать
+                                Begin
                             </Button>
                         </Link>
                     </Grid>

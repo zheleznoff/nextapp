@@ -83,9 +83,9 @@ const Materials = () => {
                             color="primary"
                         />
                         }
-                        label="Видео"
+                        label="Video"
                     />
-                    <FormHelperText className={classes.hint}>Исходники с камер</FormHelperText>
+                    <FormHelperText className={classes.hint}>Sources from cameras</FormHelperText>
                 </FormControl>
                 <FormControl>
                     <FormControlLabel
@@ -97,9 +97,9 @@ const Materials = () => {
                             color="primary"
                         />
                         }
-                        label="Аудио"
+                        label="Audio"
                     />
-                    <FormHelperText className={classes.hint}>Музыка<br/>Запись диктора</FormHelperText>
+                    <FormHelperText className={classes.hint}>Music<br/>Voice-over recording</FormHelperText>
                 </FormControl>
                 <FormControl>
                     <FormControlLabel
@@ -111,9 +111,9 @@ const Materials = () => {
                             color="primary"
                         />
                         }
-                        label="Текст"
+                        label="Text"
                     />
-                    <FormHelperText className={classes.hint}>Комментарии<br/>Плашки</FormHelperText>
+                    <FormHelperText className={classes.hint}>Comments<br/>Hints</FormHelperText>
                 </FormControl>
                 <FormControl>
                     <Button
@@ -122,7 +122,7 @@ const Materials = () => {
                         color="primary"
                         type="submit"
                     >
-                        Сохранить
+                        Save
                     </Button>
                     <Button
                         className={classes.submitBtn}
@@ -130,7 +130,7 @@ const Materials = () => {
                         variant="contained"
                         type="button"
                     >
-                        Назад
+                        Back
                     </Button>
                 </FormControl>
             </Container>

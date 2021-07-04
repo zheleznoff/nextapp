@@ -4,7 +4,7 @@ import { Materials } from '../../../src/postInstallationSteps/materials/Material
 
 const Index = () => {
     return (
-        <Navbar title="Сбор материалов">
+        <Navbar title="Collection of materials">
             <Materials/>
         </Navbar>
     )

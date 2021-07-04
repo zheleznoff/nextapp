@@ -36,7 +36,7 @@ const OrganizationSteps = () => {
                             button
                             className={classes.listText}
                         >
-                            <ListItemText primary="Техническое обеспечение" />
+                            <ListItemText primary="Technical support" />
                         </ListItem>
                     </Link>
                     <Link href={'/organization/workspace'}>
@@ -44,7 +44,7 @@ const OrganizationSteps = () => {
                             button
                             className={classes.listText}
                         >
-                            <ListItemText primary="Программное обеспечние" />
+                            <ListItemText primary="Software" />
                         </ListItem>
                     </Link>
                 </List>

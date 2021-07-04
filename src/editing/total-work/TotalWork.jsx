@@ -78,7 +78,7 @@ const TotalWork = () => {
                             color="primary"
                         />
                         }
-                        label="Цветокоррекция"
+                        label="Color correction"
                     />
                 </FormControl>
                 <FormControl>
@@ -91,7 +91,7 @@ const TotalWork = () => {
                             color="primary"
                         />
                         }
-                        label="Итоговые правки"
+                        label="Final edits"
                     />
                 </FormControl>
                 <FormControl>
@@ -104,7 +104,7 @@ const TotalWork = () => {
                             color="primary"
                         />
                         }
-                        label="Экспорт материала (рендеринг)"
+                        label="Export material (rendering)"
                     />
                 </FormControl>
                 <FormControl>
@@ -114,7 +114,7 @@ const TotalWork = () => {
                         color="primary"
                         type="submit"
                     >
-                        Сохранить
+                        Save
                     </Button>
                     <Button
                         className={classes.submitBtn}
@@ -122,7 +122,7 @@ const TotalWork = () => {
                         variant="contained"
                         type="button"
                     >
-                        Назад
+                        Back
                     </Button>
                 </FormControl>
             </Container>

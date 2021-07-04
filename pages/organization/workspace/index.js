@@ -4,7 +4,7 @@ import { Workspace } from '../../../src/postInstallationSteps/workspace/Workspac
 
 const Index = () => {
     return (
-        <Navbar title="Программное обеспечение">
+        <Navbar title="Software">
             <Workspace/>
         </Navbar>
     )

@@ -100,7 +100,7 @@ const Workspace = () => {
                     color="primary"
                     type="submit"
                 >
-                    Сохранить
+                    Save
                 </Button>
                 <Button
                     className={classes.submitBtn}
@@ -108,7 +108,7 @@ const Workspace = () => {
                     variant="contained"
                     type="button"
                 >
-                    Назад
+                    Back
                 </Button>
                 </FormControl>
             </Container>

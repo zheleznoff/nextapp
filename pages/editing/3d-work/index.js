@@ -4,7 +4,7 @@ import { ThreeDWork } from '../../../src/editing/3d-work/ThreeDWork'
 
 const Index = () => {
     return (
-        <Navbar title="Работа с 3D-визуализацией">
+        <Navbar title="Working with 3D visualization">
             <ThreeDWork/>
         </Navbar>
     )

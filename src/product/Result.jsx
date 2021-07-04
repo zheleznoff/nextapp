@@ -79,10 +79,10 @@ const Result = () => {
                             }}
                         >
                             <Typography variant="h4">
-                                Готово
+                                Success
                             </Typography>
                             <Typography variant="h6">
-                                Вы выполнили все этапы и ваш проект готов!
+                                You have completed all the steps and your project is ready!
                             </Typography>
                         </Grid>
                     </Grid>
@@ -111,10 +111,10 @@ const Result = () => {
                             }}
                         >
                             <Typography variant="h4">
-                                Ошибка
+                                Error
                             </Typography>
                             <Typography variant="h6">
-                                Какой-то из этапов не выполнен и вам стоит вернутся к предыдущим этапам
+                                Some of the stages have not been completed and you should return to the previous stages.
                             </Typography>
                         </Grid>
                     </Grid>

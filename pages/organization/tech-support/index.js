@@ -4,7 +4,7 @@ import { TechSupportForm } from '../../../src/organizationSteps/techSupport/Tech
 
 const Index = () => {
     return (
-        <Navbar title='Техническое обеспечение'>
+        <Navbar title='Technical support'>
             <TechSupportForm/>
         </Navbar>
     )

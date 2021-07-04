@@ -29,7 +29,7 @@ const PostInstallationSteps = () => {
                             button
                             className={classes.listText}
                         >
-                            <ListItemText primary="Сбор материалов" />
+                            <ListItemText primary="Collection of materials" />
                         </ListItem>
                     </Link>
                     <Link href={'/post-installation/post-edit'} passHref>
@@ -37,7 +37,7 @@ const PostInstallationSteps = () => {
                             button
                             className={classes.listText}
                         >
-                            <ListItemText primary="Пост-монтаж" />
+                            <ListItemText primary="Post-installation" />
                         </ListItem>
                     </Link>
                 </List>

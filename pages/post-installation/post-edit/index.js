@@ -5,7 +5,7 @@ import { PostEdit } from '../../../src/postInstallationSteps/post-edit/PostEdit'
 
 const Index = () => {
     return (
-        <Navbar title="Пост-монтаж">
+        <Navbar title="Post-installation">
             <PostEdit/>
         </Navbar>
     )

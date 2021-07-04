@@ -4,7 +4,7 @@ import { Result } from '../../src/product/Result'
 
 const Index = () => {
     return (
-        <Navbar title={'Продукт'}>
+        <Navbar title={'Product'}>
             <Result/>
         </Navbar>
     )

@@ -32,7 +32,7 @@ const Editing = () => {
                             button
                             className={classes.listText}
                         >
-                            <ListItemText primary="Работа со сценарием" />
+                            <ListItemText primary="Working with a script" />
                         </ListItem>
                     </Link>
                     <Link href={'/editing/3d-work'} passHref>
@@ -40,7 +40,7 @@ const Editing = () => {
                             button
                             className={classes.listText}
                         >
-                            <ListItemText primary="Работа с 3D-визуализация" />
+                            <ListItemText primary="Working with 3D visualization" />
                         </ListItem>
                     </Link>
                     <Link href={'/editing/total-work'} passHref>
@@ -48,7 +48,7 @@ const Editing = () => {
                             button
                             className={classes.listText}
                         >
-                            <ListItemText primary="Итоговый монтаж" />
+                            <ListItemText primary="Final assembly" />
                         </ListItem>
                     </Link>
                 </List>

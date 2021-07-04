@@ -79,9 +79,9 @@ const ScenarioWork = () => {
                             color="primary"
                         />
                         }
-                        label="Склейка"
+                        label="Material connection"
                     />
-                    <FormHelperText className={classes.hint}>Склейка исходников видео исходя из сценария</FormHelperText>
+                    <FormHelperText className={classes.hint}>Merging video sources based on the script</FormHelperText>
                 </FormControl>
                 <FormControl>
                     <FormControlLabel
@@ -93,9 +93,9 @@ const ScenarioWork = () => {
                             color="primary"
                         />
                         }
-                        label="Аудио"
+                        label="Audio"
                     />
-                    <FormHelperText className={classes.hint}>Склейка исходников аудио исходя из сценария</FormHelperText>
+                    <FormHelperText className={classes.hint}>Merging audio sources based on the script</FormHelperText>
                 </FormControl>
                 <FormControl>
                     <FormControlLabel
@@ -107,9 +107,9 @@ const ScenarioWork = () => {
                             color="primary"
                         />
                         }
-                        label="Текст"
+                        label="Text"
                     />
-                    <FormHelperText className={classes.hint}>Наложение текста по хронометражу</FormHelperText>
+                    <FormHelperText className={classes.hint}>Timing Text Overlay</FormHelperText>
                 </FormControl>
                 <FormControl>
                     <Button
@@ -118,7 +118,7 @@ const ScenarioWork = () => {
                         color="primary"
                         type="submit"
                     >
-                        Сохранить
+                        Save
                     </Button>
                     <Button
                         className={classes.submitBtn}
@@ -126,7 +126,7 @@ const ScenarioWork = () => {
                         variant="contained"
                         type="button"
                     >
-                        Назад
+                        Back
                     </Button>
                 </FormControl>
             </Container>

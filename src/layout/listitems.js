@@ -15,19 +15,19 @@ export const mainListItems = (
         <ListItemIcon>
           <AssignmentIcon/>
         </ListItemIcon>
-        <ListItemText primary={'Обеспечение проекта'} />
+        <ListItemText primary={'Project support'} />
       </ListItem>
     </Link>
     <Link href="/post-installation" passHref>
       <ListItem button>
         <ListItemIcon><SwitchVideoIcon/></ListItemIcon>
-        <ListItemText primary={'Пост-монтаж'} />
+        <ListItemText primary={'Post-installation'} />
       </ListItem>
     </Link>
     <Link href={'/editing'} passHref>
       <ListItem button>
         <ListItemIcon><QueuePlayNextIcon/></ListItemIcon>
-        <ListItemText primary={'Монтаж'} />
+        <ListItemText primary={'Installation'} />
       </ListItem>
     </Link>
   </>

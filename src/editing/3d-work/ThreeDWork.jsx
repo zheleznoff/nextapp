@@ -83,9 +83,9 @@ const ThreeDWork = () => {
                             color="primary"
                         />
                         }
-                        label="Создание"
+                        label="Creating"
                     />
-                    <FormHelperText className={classes.hint}>Моделирование объектов</FormHelperText>
+                    <FormHelperText className={classes.hint}>Modeling objects</FormHelperText>
                 </FormControl>
                 <FormControl>
                     <FormControlLabel
@@ -97,9 +97,9 @@ const ThreeDWork = () => {
                             color="primary"
                         />
                         }
-                        label="Доработка"
+                        label="Refinement"
                     />
-                    <FormHelperText className={classes.hint}>Добавление объектов в продукт</FormHelperText>
+                    <FormHelperText className={classes.hint}>Adding objects to the product</FormHelperText>
                 </FormControl>
                 {/* <FormControl>
                     <FormControlLabel
@@ -121,7 +121,7 @@ const ThreeDWork = () => {
                         color="primary"
                         type="submit"
                     >
-                        Сохранить
+                        Save
                     </Button>
                     <Button
                         className={classes.submitBtn}
@@ -129,7 +129,7 @@ const ThreeDWork = () => {
                         variant="contained"
                         type="button"
                     >
-                        Назад
+                        Back
                     </Button>
                 </FormControl>
             </Container>
